@@ -1,0 +1,69 @@
+# Basic Site Settings
+baseURL = "https://blog.dylanlegendre.com/"         # Change to your site URL
+languageCode = "en-us"                   # Language code
+title = "Blog of Dylan Legendre"                   # Your site title
+theme = "hugo-theme-m10c"                # Hugo theme name
+
+# Optional: enable build settings
+enableRobotsTXT = true
+
+# Author & Description (for SEO, social sharing)
+[params]
+  author = "Dylan Legendre"                     # Your name
+  description = "Engineering production systems, not just YAML."   # Short description
+
+  # Avatar image (place in /static/images or similar)
+  avatar = "/images/avatar.jpeg"          # Path to your avatar file
+
+  # Optional: favicon override (default is /favicon.ico)
+  favicon = "/favicon.ico"
+
+  # Optional: separator between menu items (HTML allowed)
+  menu_item_separator = " - "
+
+  # Optional: Default theme colors (customize! see below)
+  [params.style]
+    darkestColor  = "#0b1220"  # deep navy — sidebar, footer
+    darkColor     = "#0f172a"  # main background (blue-black)
+    lightColor    = "#94a3b8"  # muted slate — secondary text
+    lightestColor = "#e5e7eb"  # primary text (soft white)
+    primaryColor  = "#38bdf8"  # cool sky blue — links & accents
+
+
+# Menu Configuration
+# Hugo uses "menu.main" for top navigation. Add as many links as you need.
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 3
+
+# Social Links (sidebar icons)
+# m10c expects `icon`, `name`, and `url`. Icons use Feather or Simple Icons (prefixed with "brand-").
+[[params.social]]
+  icon = "brand-github"
+  name = "GitHub"
+  url = "https://github.com/morpheuszero"
+
+[[params.social]]
+  icon = "brand-twitter"
+  name = "Twitter"
+  url = "https://x.com/Dylan_Legendre"
+
+# Optional: Google Analytics (uncomment and replace your ID)
+googleAnalytics = "G-5J50R9KPH3"
+
+# Optional: Disqus comments (uncomment and replace shortname)
+# disqusShortname = "your-disqus-shortname"
