@@ -4,6 +4,11 @@ languageCode = "en-us"                   # Language code
 title = "Blog of Dylan Legendre"                   # Your site title
 theme = "hugo-theme-m10c"                # Hugo theme name
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # Optional: enable build settings
 enableRobotsTXT = true
 
