@@ -6,7 +6,7 @@ theme = "hugo-theme-m10c"                # Hugo theme name
 
 [services]
   [services.disqus]
-    shortname = 'dylanlegendre'
+    shortname = 'blog-eribywpdje'
 
 [markup]
   [markup.goldmark]
