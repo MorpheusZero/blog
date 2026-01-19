@@ -1,7 +1,7 @@
 +++
-date = '2026-01-11T21:13:52-06:00'
-draft = true
+date = '2026-01-18T10:00:00-06:00'
 title = '2026: New Year New Beginnings'
+tags = ['programming', 'life']
 +++
 
 ### An Introduction
@@ -44,7 +44,7 @@ In my free time, I've been dabbling in new languages (like Go). I also like to w
 
 So with that, my actual goal for 2026 is to publish at least 1 article to this blog per month. It should be something with substance and not simply a one paragraph piece of writing. I am using Hugo to publish this blog on a free GitHub hosted page. I am using Cloudflare for my domain. I will probably post the articles on Reddit or other places to get some views, but my overall goal is not simply views, but simply to improve my writing skills. So if you made it this far, first, thanks for reading and following along. Second, if you want to reach out and follow me on any socials, feel free to send me any and all questions. I would love to have a discussion and learn more about you and how we can help each other.
 
-### Reach Out
+### Reach out to Me
 
 - [GitHub](https://github.com/morpheuszero)
 - [Twitter](https://x.com/Dylan_Legendre)

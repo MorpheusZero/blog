@@ -4,6 +4,10 @@ languageCode = "en-us"                   # Language code
 title = "Blog of Dylan Legendre"                   # Your site title
 theme = "hugo-theme-m10c"                # Hugo theme name
 
+[services]
+  [services.disqus]
+    shortname = 'dylanlegendre'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -21,7 +25,7 @@ enableRobotsTXT = true
   avatar = "/images/avatar.jpeg"          # Path to your avatar file
 
   # Optional: favicon override (default is /favicon.ico)
-  favicon = "/favicon.ico"
+  favicon = "/favicon.png"
 
   # Optional: separator between menu items (HTML allowed)
   menu_item_separator = " - "
@@ -63,12 +67,19 @@ enableRobotsTXT = true
   url = "https://github.com/morpheuszero"
 
 [[params.social]]
-  icon = "brand-twitter"
+  icon = "brand-x"
   name = "Twitter"
   url = "https://x.com/Dylan_Legendre"
 
+[[params.social]]
+  icon = "brand-web"
+  name = "Website"
+  url = "https://dylanlegendre.com"
+
+[[params.social]]
+  icon = "brand-instagram"
+  name = "Instagram"
+  url = "https://www.instagram.com/morpheuszer0/"
+
 # Optional: Google Analytics (uncomment and replace your ID)
 googleAnalytics = "G-5J50R9KPH3"
-
-# Optional: Disqus comments (uncomment and replace shortname)
-# disqusShortname = "your-disqus-shortname"
